@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Filip Tsolov</title>
+    <title>Home | Filip Tsolov</title>
     <link rel="stylesheet" href="../styles/styles.css" />
     <link rel="stylesheet" href="../node_modules/tailwindcss/tailwind.css" />
     <script src="../js/index.js" defer></script>
@@ -11,59 +11,93 @@
   <body>
     <div class="layout-container">
       <div class="horizontal-bar">
-        <div class="log"></div>
+        <div class="logo"></div>
         <div>
           <ul class="nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="../pages/index.html">HOME</a></li>
+            <li><a href="../pages/about.html">ABOUT ME</a></li>
+            <li><a href="../pages/work.html">WORK</a></li>
+            <li><a href="../pages/contact.html">CONTACT</a></li>
           </ul>
         </div>
       </div>
       <div class="vertical-bar-left"></div>
       <div class="vertical-bar-right"></div>
-    </div>
-    <div class="hero">
-      <h1 class="hero-header">
-        Hey, I'm <br />
-        <span class="gradient-text">Filip Tsolov</span>
-      </h1>
-      <p>
-        UI/UX Designer, Frontend Developer & <br />
-        Graphic Content creator
-      </p>
-      <div>
-        <a href="#" class="button">👋🏻 Get In Touch</a>
+      <div class="flex-container">
+        <div class="hero">
+          <h1 class="hero-header">
+            Hey, I'm <br />
+            <span class="gradient-text">✨ Filip Tsolov ✨</span>
+          </h1>
+          <p>
+            UI/UX Designer, Frontend Developer & <br />
+            Graphic Content creator
+          </p>
+          <div>
+            <a href="#" class="button">👋🏻 Get In Touch</a>
+          </div>
+          <div>
+            <img src="../src/icons/arrow.svg" alt="arrow" class="arrow" />
+          </div>
+        </div>
+        <div id="media" class="background">
+          <h3 class="specialise-in">I specialise in:</h3>
+          <h2 onmouseover="changeBgTo('webDesign')" class="specialise">
+            Web Design
+          </h2>
+          <h2 onmouseover="changeBgTo('UIDesign')" class="specialise">
+            UI/UX Design
+          </h2>
+          <h2 class="specialise">Frontend Development</h2>
+          <h2 class="specialise">Graphic Design</h2>
+          <h2 class="specialise">Motion Graphics</h2>
+        </div>
+<!--        <div class="line"></div>-->
+        <div>
+          <h2 class="latest">Latest Projects</h2>
+          <p>Check out some of my latest work.</p>
+        </div>
+        <div>
+          <div class="project-container max-w">
+            <div class="grid-container">
+              <div class="grid-child project1">
+                <div class="project-details">
+                  <h3>DaLokal</h3>
+                  <p>UI Design</p>
+                </div>
+              </div>
+              <div class="grid-child project2">
+                <div class="project-details">
+                  <h3>DaLokal</h3>
+                  <p>UI Design</p>
+                </div>
+              </div>
+              <div class="grid-child project3">
+                <div class="project-details">
+                  <h3>DaLokal</h3>
+                  <p>UI Design</p>
+                </div>
+              </div>
+              <div class="grid-child project4">
+                <div class="project-details">
+                  <h3>DaLokal</h3>
+                  <p>UI Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="button">View All Projects</a>
+        </div>
+        <div class="talk">
+          <h1>Let's talk.</h1>
+          <a href="mailto:contact@tsolov.design">
+            <h2 class="gradient-text" style="display: inline-block">
+              contact@tsolov.design
+            </h2>
+          </a>
+        </div>
       </div>
-      <div>
-        <img src="../src/icons/arrow.svg" alt="" class="arrow" />
-      </div>
-    </div>
-  <div id="media" class="background">
-    <h3 class="specialise-in">I specialise in:</h3>
-    <h2 onmouseover="changeBgTo('webDesign')" class="specialise">Web Design</h2>
-    <h2 onmouseover="changeBgTo('UIDesign')" class="specialise">UI/UX Design</h2>
-    <h2 class="specialise">Frontend Development</h2>
-    <h2 class="specialise">Graphic Design</h2>
-    <h2 class="specialise">Motion Graphics</h2>
-  </div>
-  <div class="line"></div>
-  <div>
-    <h2 class="latest">Latest Projects</h2>
-    <p>Check out some of my latest work.</p>
-  </div>
-    <div class="project-container max-w">
-      <div class="grid-container">
-        <div class="grid-child project1"></div>
-        <div class="grid-child project2"></div>
-        <div class="grid-child project3"></div>
-        <div class="grid-child project4"></div>
-      </div>
-    </div>
 
+    </div>
   </body>
-  <script src="../js/index.js">
-    f
-  </script>
 </html>
